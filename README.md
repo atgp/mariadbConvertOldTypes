@@ -10,14 +10,17 @@ The procedure throw one alter by table even if there are many columns to modify 
 
 ## Tags example:
 datetime /* mariadb-5.3 */
+
 decimal(7,3) /*old*/
 
 ## Procedure name : 
     convertOldTypes()
 
 ## Note for phpMyAdmin :
-Delete delimiter at beginning and end
+Delete delimiter at beginning and end.
+
 PhpMyAdmin manages delimiter himself, this is under the SQL field.
+
 Modify Delimiter from ; to // (for example). 
 
 ## Launch procedure :
